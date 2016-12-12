@@ -6,16 +6,10 @@ define( function( require ) {
     
     return Marionette.Controller.extend( {
         
-        
-        /**
-         * default page for the red module.
-         * 
-         */
-        catchAllRed: function() {
+        SignUpNow: function() {
             var defaultView = new DefaultView();
             AppInstance = require( 'AppInstance' );
             
-            // Note that defaultView's 'render' was not called beforehand
             AppInstance.regionMain.show( defaultView );
         }
         

@@ -9,7 +9,7 @@ define( function( require ) {
         
         
         appRoutes: {
-            'red': 'catchAllRed'  
+            'signUp': 'SignUpNow'  
         },
         
         _getController: function() {
